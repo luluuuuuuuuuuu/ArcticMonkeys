@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  background-color: #a0a084;
+
+}
+
+.datetime, .location, .venue {
+  text-align: left;
+  border-bottom: 4px black solid;
+  
+}
+
+tr:nth-child(even) {
+  background-color: #a0a084;
+}
+
+.tickets a{
+  padding: 0.4rem 1.6rem;
+  text-align: left;
+  color: black;
+  border: 4px black solid;
+}
+
+td {
+  font-weight: bold;
+  font-size: 20px;
+  padding-top: 30px;
+  line-height: 2.4rem;
+}
+
+
+
